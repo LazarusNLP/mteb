@@ -182,6 +182,7 @@ def main():
         task_types=args.task_types,
         task_langs=args.task_langs,
         tasks=args.tasks,
+        hf_subsets=args.task_langs,
     )
 
     eval.run(
